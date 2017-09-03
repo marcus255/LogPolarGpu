@@ -27,7 +27,7 @@ int main(int argc, char *argv[]) {
 		if (argc > 6)
 			rowsPerKernel = atoi(argv[6]);
 	} else {
-		printf("%s: Invalid number of arguments.\nUsage:   LogPolarGpu.exe PATCH_NAME BG_NAME IMAGE_DIR [CONFIDENCE_LEVEL=80] [ANGLE_LIMIT=360] [ROWS_PER_KERNEL=1]\n", argv[0]);
+		printf("%s: Invalid number of arguments.\nUsage:   LogPolarGpu.exe PATCH_NAME BG_NAME IMAGE_DIR [ANGLE_LIMIT=360] [CONFIDENCE_LEVEL=80] [ROWS_PER_KERNEL=1]\n", argv[0]);
 		printf("Example: LogPolarGpu.exe patch1 bg1 oxbuild 80 10\n\n");
 		return 1;
 	}
