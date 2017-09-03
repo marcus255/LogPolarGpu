@@ -8,7 +8,7 @@
 
 #define LOG_TO_CSV 0
 
-const std::string testDir("LogPolarTest/");
+const std::string testDir("../../LogPolarGpu/LogPolarTest/");
 const std::string fileExtension(".jpg");
 std::string imageDir, refImg, patchImageName;
 extern int rowsPerKernel, angleLimit;

@@ -7,6 +7,9 @@ int angleLimit = 360;
 
 #define BLOCK_SIZE_X	16
 #define BLOCK_SIZE_Y	32
+#ifndef FLT_MAX
+#define FLT_MAX         1e30
+#endif
 
 __global__ void kernelGetLpImage(const MonoImage devBgImage, MonoImage devLpPatchImage, const LpTransformEngine<float> devEngine, Simple2dPoint<int> patchPosition) {
 	// Block row and column

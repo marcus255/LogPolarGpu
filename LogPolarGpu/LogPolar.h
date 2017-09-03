@@ -4,7 +4,6 @@
 #include <math.h>
 #include <assert.h>
 #include <stdio.h>
-#include <string>
 
 typedef unsigned char uint8_t;
 
