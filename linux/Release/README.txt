@@ -1,0 +1,1 @@
+Linux executable will be created in this directory after building from makeLPomp.sh script
